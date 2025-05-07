@@ -21,7 +21,7 @@ listener.start()
 
 # Get the current directory and construct path to spam.txt
 current_dir = os.path.dirname(os.path.abspath(__file__))
-spam_file = os.path.join(current_dir, "spam.txt")
+spam_file = os.path.join(current_dir, "input.txt")
 
 # Read message from file
 with open(spam_file, 'r', encoding='utf-8') as f:
